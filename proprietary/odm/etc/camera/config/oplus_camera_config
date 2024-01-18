@@ -1228,58 +1228,14 @@
   "Count": "1",
   "Value": "44"
 },
-
 {
   "VendorTag": "com.oplus.athena.new.support",
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
 },
-
-{
-  "VendorTag": "com.oplus.feature.ai.scene.hint.show.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
-   "VendorTag": "com.oplus.camera.support.activity.rotate",
-   "Type": "Byte",
-   "Count": "1",
-   "Value": "1"
-},
-
 {
   "VendorTag": "com.oplus.filter.need.extra.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
-  "VendorTag": "com.oplus.feature.face.beauty.custom.menu.refinement.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "0"
-},
-
-{
-  "VendorTag":"com.oplus.support.professional.mode.in.headline",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "0"
-},
-
-{
-  "VendorTag": "com.oplus.watermark.edit.in.gallery.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
-  "VendorTag": "com.oplus.watermark.is.new.project.behavior",
   "Type": "Byte",
   "Count": "1",
   "Value": "1"

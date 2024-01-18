@@ -9,14 +9,23 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/oneplus/oscar/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/oneplus/oscar/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
+    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/oscarr/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/oneplus/oscar/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/oscarr/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/oneplus/oscar/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
+    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/oscarr/etc/acdbdata/General_cal.acdb \
     vendor/oneplus/oscar/proprietary/odm/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Global_cal.acdb \
+    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/oscarr/etc/acdbdata/Global_cal.acdb \
     vendor/oneplus/oscar/proprietary/odm/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Handset_cal.acdb \
+    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_ODM)/oscarr/etc/acdbdata/Handset_cal.acdb \
     vendor/oneplus/oscar/proprietary/odm/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/oscarr/etc/acdbdata/Hdmi_cal.acdb \
     vendor/oneplus/oscar/proprietary/odm/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Headset_cal.acdb \
+    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/oscarr/etc/acdbdata/Headset_cal.acdb \
     vendor/oneplus/oscar/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/oscarr/etc/acdbdata/Speaker_cal.acdb \
     vendor/oneplus/oscar/proprietary/odm/etc/bt/apnv11.bin:$(TARGET_COPY_OUT_ODM)/etc/bt/apnv11.bin \
+    vendor/oneplus/oscar/proprietary/odm/oscarr/etc/bt/apnv11.bin:$(TARGET_COPY_OUT_ODM)/oscarr/etc/bt/apnv11.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/CameraHWConfiguration.config \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/aicolor/duallut_background.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_background.bmp \
@@ -46,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/oplus_camera_aps_config \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/oplus_camera_config \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/ov08d10:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov08d10 \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/config/ov64b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov64b \
     vendor/oneplus/oscar/proprietary/odm/oscarr/etc/camera/config/ov64b:$(TARGET_COPY_OUT_ODM)/oscarr/etc/camera/config/ov64b \
@@ -110,6 +118,70 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/eyesMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMask.png \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/face_retouch_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_chinese.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/face_retouch_chinese.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_chinese.dlc \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/000.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/000.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/000_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/000_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/001.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/001.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/001_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/001_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/002.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/002.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/002_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/002_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/003.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/003.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/003_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/003_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/010.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/010.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/010_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/010_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/011.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/011.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/011_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/011_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/012.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/012.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/012_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/012_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/013.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/013.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/100.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/100.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/100_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/100_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/101.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/101.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/101_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/101_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/102.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/102.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/102_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/102_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/103.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/103.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/103_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/103_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/110.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/110.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/110_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/110_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/111.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/111.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/111_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/111_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/112.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/112.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/112_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/112_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/113.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/113.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/200.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/200.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/200_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/200_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/201.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/201.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/201_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/201_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/202.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/202.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/202_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/202_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/203.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/203.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/203_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/203_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/210.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/210.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/210_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/210_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/211.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/211.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/211_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/211_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/212.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/212.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/212_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/212_pre.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/213.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/213.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/eyeBright.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/eyeBright.png \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs00.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs01.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs02.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs03.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs10.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs11.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs12.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs13.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs_yuv16_00.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs_yuv16_01.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs_yuv16_02.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs_yuv16_03.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs_yuv16_10.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs_yuv16_11.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs_yuv16_12.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinLUTs_yuv16_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinLUTs_yuv16_13.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinmask.bin \
+    vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/fb_model/skinmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/fb_model/skinmask.png \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/mouthmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/mouthmask.png \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/skinLUTs00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs00.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/fb_model/skinLUTs01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs01.bin \
@@ -141,7 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/ByW7g4bbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByW7g4bbf \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByYo3If \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/BycYf7WWz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BycYf7WWz \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Cold.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Emerald.cube.rgb.bin \
@@ -163,13 +234,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/Sy4uLSTgf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Sy4uLSTgf \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/Syt2KeZZf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Syt2KeZZf \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/Texture-70.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Texture-70.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/White.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/black_gold.bin \
@@ -203,7 +272,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/ByW7g4bbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/ByW7g4bbf \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/ByYo3If \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/BycYf7WWz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/BycYf7WWz \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/Cold.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/DL_D_G4.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/DL_L_B6.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/Emerald.cube.rgb.bin \
@@ -225,13 +293,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/Sy4uLSTgf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/Sy4uLSTgf \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/Syt2KeZZf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/Syt2KeZZf \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/Texture-70.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/Texture-70.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/V01-landscape-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/V01-landscape-2.6.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/V02-portrait-2.5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/V02-portrait-2.5.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/V03-food-2.0.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/V03-food-2.0.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/V04-night-1.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/V04-night-1.3.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/V05-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/V05-mono-3.3.CUBE.rgb.bin \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/White.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/YoucamAdorable80.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/YoucamAdorable80.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/b-w-P8.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/b-w-P8.CUBE.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/black_gold.bin \
@@ -257,8 +323,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/fuji-eterna-v2.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/fuji.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/gourmet.cube.rgb.bin \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/gt-beach.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/gt-beach.cube.rgb.bin \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/gt-glazed-tile.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/gt-glazed-tile.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/interstellar_space.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/jiari-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/jiari-2.0.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/filters_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/filters_lut/jw_sun.CUBE.rgb.bin \
@@ -337,8 +401,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gourmet.cube.rgb.bin \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/gt-beach.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-beach.cube.rgb.bin \
-    vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/interstellar_space.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin \
     vendor/oneplus/oscar/proprietary/odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin \
@@ -742,6 +804,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel.so \
+    vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libc++.so.1:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libc++.so.1 \
+    vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libc++abi.so.1:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libc++abi.so.1 \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libcalculator_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libcalculator_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libhdr_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libhdr_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so \
@@ -761,6 +825,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libvdblurless_4.6.10Y_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_4.6.10Y_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libvdblurless_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_skel.so \
     vendor/oneplus/oscar/proprietary/odm/lib/rfsa/adsp/libvdsuperphoto_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdsuperphoto_skel.so \
+    vendor/oneplus/oscar/proprietary/odm/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance@1.0.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/anc.capacitive.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.capacitive.hal.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/camera/com.qti.sensor.gc02m1.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.gc02m1.so \
@@ -813,7 +878,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib64/libFaceBeautyPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceBeautyPre.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libFaceDistortionCorrection.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceDistortionCorrection.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libFilterWrapper.so \
-    vendor/oneplus/oscar/proprietary/odm/lib64/libImageWarpMask.so:$(TARGET_COPY_OUT_ODM)/lib64/libImageWarpMask.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libOGLManager.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPLUS_SCPortrait.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libPerfectColor.so:$(TARGET_COPY_OUT_ODM)/lib64/libPerfectColor.so \
@@ -850,7 +914,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libapspng.so:$(TARGET_COPY_OUT_ODM)/lib64/libapspng.so \
-    vendor/oneplus/oscar/proprietary/odm/lib64/libapsyuv.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsyuv.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libarcsoft_aicolor_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_image.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_video.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_distortion_correction.so \
@@ -880,7 +943,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_raw.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_supernight.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
-    vendor/oneplus/oscar/proprietary/odm/lib64/libexif-jpeg-aps.so:$(TARGET_COPY_OUT_ODM)/lib64/libexif-jpeg-aps.so \
+    vendor/oneplus/oscar/proprietary/odm/lib64/libffmpeg_utils.so:$(TARGET_COPY_OUT_ODM)/lib64/libffmpeg_utils.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libhta.so:$(TARGET_COPY_OUT_ODM)/lib64/libhta.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libhwconfigurationutil.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwconfigurationutil.so \
@@ -895,7 +958,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib64/libop-ai-beauty-faceretouch-cn.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-faceretouch-cn.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/liboplusblur_capture_api.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplusblur_capture_api.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
-    vendor/oneplus/oscar/proprietary/odm/lib64/libosenseaidlhalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosenseaidlhalclient.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosensehalclient.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v2.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libsnpe_dsp_domains_v3.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v3.so \
@@ -909,12 +971,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/odm/lib64/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib64/libswresample.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib64/libswscale.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
-    vendor/oneplus/oscar/proprietary/odm/lib64/libyuvwrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libyuvwrapper.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
-    vendor/oneplus/oscar/proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so \
-    vendor/oneplus/oscar/proprietary/odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so \
+    vendor/oneplus/oscar/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/oneplus/oscar/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
+    vendor/oneplus/oscar/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/oneplus/oscar/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/oscar/proprietary/odm/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b00 \
     vendor/oneplus/oscar/proprietary/odm/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b01 \
@@ -972,6 +1033,50 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/oneplus/oscar/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/oneplus/oscar/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b01 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b02 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b03 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b04 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b05 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b06 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b07 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b08 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b09 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b10 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b11 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b12 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b13 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b14 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b15 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b16 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b17 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b18 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b19 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mdt \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b01 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b02 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b03 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b04 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b05 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b06 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b07 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b08 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b09 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b10 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b11 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b12 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b13 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b14 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b15 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b16 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b17 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b18 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b19 \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mdt \
+    vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v_unsigned.mbn \
     vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_4v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b01 \
     vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_4v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b02 \
     vendor/oneplus/oscar/proprietary/vendor/firmware/vpu20_4v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b03 \
@@ -1150,7 +1255,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/vendor/lib64/libmctfengine_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmctfengine_stub.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/libmfec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfec.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/libmidasserviceintf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmidasserviceintf.so \
-    vendor/oneplus/oscar/proprietary/vendor/lib64/libmidasserviceintf_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmidasserviceintf_aidl.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_bestats.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
@@ -1175,7 +1279,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/vendor/lib64/libtfestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfestriping.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
-    vendor/oneplus/oscar/proprietary/vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 PRODUCT_PACKAGES += \
