@@ -6,13 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/oscar
 
 PRODUCT_COPY_FILES += \
-    vendor/oneplus/oscar/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
-    vendor/oneplus/oscar/proprietary/vendor/etc/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init_thermal-engine.rc \
-    vendor/oneplus/oscar/proprietary/odm/etc/ThermalServiceConfig/sys_thermal_config.xml:$(TARGET_COPY_OUT_ODM)/etc/ThermalServiceConfig/sys_thermal_config.xml \
-    vendor/oneplus/oscar/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
     vendor/oneplus/oscar/proprietary/vendor/lib/android.hardware.thermal-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.thermal-V1-ndk.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/android.hardware.thermal-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.thermal-V1-ndk.so \
-    vendor/oneplus/oscar/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
     vendor/oneplus/oscar/proprietary/vendor/lib/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.thermal@1.0.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)system/lib64/android.hardware.thermal@1.0.so \
     vendor/oneplus/oscar/proprietary/vendor/lib/android.hardware.thermal@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.thermal@2.0.so \
