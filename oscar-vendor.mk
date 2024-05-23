@@ -7,6 +7,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/oscar/proprietary/vendor/lib/android.hardware.thermal-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.thermal-V1-ndk.so \
+    vendor/oneplus/oscar/proprietary/vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.sensors@2.0-ScopedWakelock.so \
+    vendor/oneplus/oscar/proprietary/vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.sensors@2.0-ScopedWakelock.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/android.hardware.thermal-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.thermal-V1-ndk.so \
     vendor/oneplus/oscar/proprietary/vendor/lib/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/android.hardware.thermal@1.0.so \
     vendor/oneplus/oscar/proprietary/vendor/lib64/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)system/lib64/android.hardware.thermal@1.0.so \
